@@ -27,6 +27,7 @@ for name, imp in zip(x, dtree.feature_importances_):
     print(f"{name}: {imp}")
 
 
-
+print(dtree.score(X_train,Y_train))
+print(dtree.score(x_test,y_test))
 
 
